@@ -11,8 +11,11 @@ This project is a Livestock Population Simulation System that models the growth,
 It uses:
 
 Streamlit → Interactive frontend dashboard
+
 FastAPI → Backend simulation engine
+
 NumPy & Pandas → Data processing
+
 Matplotlib → Visualization
 
 The system allows users to simulate livestock population dynamics over time with customizable biological and economic parameters.
@@ -49,17 +52,22 @@ Download simulation data (CSV)
 Download summary report (TXT)
 
 🗂️ Project Structure
+
 ├── animal_params.py   # Default parameters for each animal
+
 ├── goat.py            # Streamlit frontend UI
+
 ├── main.py            # FastAPI backend API
+
 ├── model.py           # Core simulation logic
+
 ├── requirements.txt   # Project dependencies
 
 How to Run the Project:
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/livestock-simulation.git
+git clone https://github.com/IsmaAyaz/animal_forecasting.git
 
 cd livestock-simulation
 
@@ -98,9 +106,14 @@ Results returned and visualized in dashboard
 Parameter	Description
 
 t_prod_start	Age when reproduction starts
+
 t_prod_end	Age when reproduction ends
+
 p_get_pregnant	Pregnancy probability
+
 p_kids	Distribution of number of kids
+
 death_probs	Age-based mortality
+
 p_sell_male/female	Selling probability
 
