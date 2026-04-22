@@ -23,32 +23,49 @@ The system allows users to simulate livestock population dynamics over time with
 Features:
 
 🔢 Population Simulation
+
 Male & female population tracking
+
 Age-based distribution
+
 Multi-iteration simulation for realistic results
 
 🐣 Reproduction Modeling
+
 Pregnancy probability
+
 Birth distribution (1, 2, 3+ kids)
+
 Female/male birth ratio
 
 ⚰️ Mortality System
+
 Age-based death probabilities
+
 Customizable death rates per age group
 
 💰 Selling Logic
+
 Selling based on age thresholds
+
 Adjustable selling probabilities
+
 Separate tracking for male & female sales
 
 📊 Visualization Dashboard
+
 Population trends over time
+
 Selling analysis
+
 Deaths & births graphs
+
 Final simulation summary
 
 📁 Export Options
+
 Download simulation data (CSV)
+
 Download summary report (TXT)
 
 🗂️ Project Structure
@@ -90,15 +107,23 @@ streamlit run goat.py
 How It Works:
 
 User inputs:
+
 Initial population
+
 Age distribution
+
 Probabilities (birth, death, selling)
+
 Streamlit sends request to FastAPI
 
 FastAPI:
+
 Runs multiple simulation iterations
+
 Uses stochastic (random) modeling
+
 Aggregates results
+
 Results returned and visualized in dashboard
 
 📊 Key Parameters
